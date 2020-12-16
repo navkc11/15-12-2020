@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.ArrayList;
 
-//targil 1 לא ידעתי איך לפתור את התרגילים
+//targil 1
 public class Employee {
 
     String name;
