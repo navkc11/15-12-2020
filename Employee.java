@@ -21,7 +21,7 @@ public class Employee {
         return (double)(salary/seniority);
     }
     //method 2
-    public ArrayList<Employee> filter(Employee[] allEmployees){
+    public ArrayList<Employee> filter(ArrayList<Employee> allEmployees){
         ArrayList<Employee> res = new ArrayList<Employee>();
         for(Employee e : allEmployees){
             if( e.salary<15000 && e.seniority>120 ) res.add(e);
